@@ -5,7 +5,7 @@ import datetime
 # Set up the page configuration for mobile-friendly view
 st.set_page_config(page_title="VibeTemp - Weather Dashboard", page_icon="🌡️", layout="centered")
 
-st.title("🌡️ Real-Time Temperature Dashboard")
+st.title("Samrat Dhakalllllllllllllll😚🤨😶😶😶🙂☺️😙🤔🤗😣😘😍🤗😔🤤😒😕🤑😔😔🙃😔😔🤧😇🤢🤫🤮🤫🤧😇😷😷🤢🤬🤧😇🤓👨‍🎤👨‍💼👨‍💼👨‍💼👨‍🎨👨‍🚒👩‍🎨👨‍💻👩‍🏭👨‍💼👨‍🎤👨‍🚀👨‍🚒🧛‍♂️🧙‍♂️🧛‍♂️🙆‍♀️🙋‍♀️🙋‍♀️🙆‍♀️🙇‍♂️🏌️‍♀️🏌️‍♀️🏂️⛷️🏄‍♂️🏄‍♀️🏄‍♂️👨‍👩‍👦‍👦👨‍👩‍👦‍👦👨‍👨‍👧‍👧👩‍👩‍👧👨‍👩‍👦‍👦")
 st.write("A sleek, responsive app to track local environmental temperatures.")
 
 # 1. State Management (Keeps data safe across reruns)
