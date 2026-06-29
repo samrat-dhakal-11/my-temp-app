@@ -33,13 +33,13 @@ for msg in st.session_state.messages:
         st.markdown(msg["content"])
 
 # 6. Handle Chat Input
-if prompt := st.chat_input("Ask me anything..."):
+if prompt := st.chat_input("K Sodni Ho :Yehi Lekh"):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
 
     with st.chat_message("assistant"):
-        with st.spinner("Thinking..."):
+        with st.spinner("Rok Ekxin:Sochi Rachu"):
             try:
                 # Prepare history (Gemini requires 'model' role, not 'assistant')
                 history = [
