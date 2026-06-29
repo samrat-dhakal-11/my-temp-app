@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # 1. Page Configuration
 st.set_page_config(page_title="Samrat Chatbot", page_icon="👑")
-st.title("The Great Samrat Dhakal")
+st.title("\tThe Great Samrat Dhakal")
 st.subheader("Enjoy Boys And Girls : Have Fun With AI")
 
 # 2. Configure API Key
