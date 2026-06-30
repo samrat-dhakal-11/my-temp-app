@@ -5,13 +5,15 @@ from tenacity import retry, wait_random_exponential, stop_after_attempt
 # 1. Page Configuration (Mandatory as per your requirement)
 st.set_page_config(page_title="Samrat Chatbot", page_icon="👑")
 st.title("The Great Samrat Dhakal")
+st.title("Rijan Dalla....")
 st.subheader("Enjoy Boys And Girls : Have Fun With AI")
+
 
 # 2. Configure API Key
 try:
     genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
     # Using the current stable model
-    model = genai.GenerativeModel('gemini-3.5-flash') 
+    model = genai.GenerativeModel('gemini-2.5-flash') 
 except Exception as e:
     st.error("Error: Could not configure Gemini API. Check your Streamlit Secrets.")
     st.stop()
